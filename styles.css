@@ -1,0 +1,161 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;}
+
+img {
+    width: 100px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-container{
+    background-image: url("images/fremont.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title{
+    width: 225px;
+    height: 42px;
+    background: #1D3557;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3px 12px;
+    margin-bottom: 11px;
+}
+.hero-desc{
+    width: 412px;
+    height: 52px;
+    background: #457B9D;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px 28px;
+}
+
+.activities-container{
+    background-color: #F1FAEE;
+    width: 720px;
+    height: 343px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.activities-info{
+    width: 198px;
+    height: 226px;
+}
+
+.activities-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activities-title, .activities-desc{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.activities-title{
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.activities-desc{
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.guide-container{
+    background-color: #ffffff;
+    width: 720px;
+    height: 343px;
+    box-shadow: 0px 4px 4px #1D3557;
+    padding-bottom: 50px;
+}
+.guide-info-container{
+    background-color: #A8DADC;
+    display: flex;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto 50px auto;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-img{
+    width: 180px;
+    height: 248.67px;
+    margin: 23px 0px 22.33px 13px;
+    border-radius: 10px;
+}
+
+#guide-title{
+    margin-top: 49px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+#guide-information{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    margin-top: 14px;
+    margin-right: 11px;
+    margin-left: 7px;
+}
+
+#guide-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    margin-top: 26px;
+    margin-right: 13px;
+}
